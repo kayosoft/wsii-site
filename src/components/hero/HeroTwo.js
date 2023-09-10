@@ -44,7 +44,7 @@ export default class HeroTwo extends React.Component {
                                                 <h2>Give the <span>Poor</span> Help for Families.</h2>
                                                 <p>There are many variations of passages of Lorem Ipsum Fasts by injected
                                                     humour, or randomised words which... </p>
-                                                <Link to={process.env.PUBLIC_URL + `/about`} className="thm-btn main-slider__btn">Leran More</Link>
+                                                <Link to={`/about`} className="thm-btn main-slider__btn">Leran More</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -68,7 +68,7 @@ export default class HeroTwo extends React.Component {
                                                 <h2>Give the <span>Poor</span> Help for Families.</h2>
                                                 <p>There are many variations of passages of Lorem Ipsum Fasts by injected
                                                     humour, or randomised words which... </p>
-                                                <Link to={process.env.PUBLIC_URL + `/about`} className="thm-btn main-slider__btn">Leran More</Link>
+                                                <Link to={`/about`} className="thm-btn main-slider__btn">Leran More</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -91,7 +91,7 @@ export default class HeroTwo extends React.Component {
                                                 <h2>Give the <span>Poor</span> Help for Families.</h2>
                                                 <p>There are many variations of passages of Lorem Ipsum Fasts by injected
                                                     humour, or randomised words which... </p>
-                                                <Link to={process.env.PUBLIC_URL + `/about`} className="thm-btn main-slider__btn">Leran More</Link>
+                                                <Link to={`/about`} className="thm-btn main-slider__btn">Leran More</Link>
                                             </div>
                                         </div>
                                     </div>

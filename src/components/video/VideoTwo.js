@@ -39,7 +39,7 @@ export default class VideoTwo extends React.Component {
                                 <h3 className="video-one__title">Welcome To Our We Donation <br /> Video Poor.</h3>
                                 <p className="video-one__text">If you are going to use a passage of Lorem Ipsum, you <br /> need to be
                                     sure there isn't anything </p>
-                                <Link to={process.env.PUBLIC_URL + `/about`} className="thm-btn video-one__btn">Video More</Link>
+                                <Link to={`/about`} className="thm-btn video-one__btn">Video More</Link>
                             </div>
                         </div>
                     </div>

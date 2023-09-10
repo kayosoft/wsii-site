@@ -16,7 +16,7 @@ export default class HelpPeopleOne extends React.Component {
                             <h3 className="help-people__title">Become Volunteer</h3>
                             <p className="help-people__text">Lorem ipsum dolor sit amet, consectetur nod adipisicing elit sed do
                                 eiusmod tempor incididunt ut labore et dolore.</p>
-                            <Link to={process.env.PUBLIC_URL + `/team-details`} className="thm-btn help-people__btn">Join Us Now</Link>
+                            <Link to={`/team-details`} className="thm-btn help-people__btn">Join Us Now</Link>
                         </div>
                     </div>
                 </section>

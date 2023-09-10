@@ -20,7 +20,7 @@ export default class ProjectOne extends React.Component {
                                         <img src={publicUrl+"assets/images/project/project-1-1.jpg"} alt="" />
                                         <div className="project-one__content">
                                             <p className="project-one__sub-title">Our Best Projects</p>
-                                            <h3 className="project-one__title"><Link to={process.env.PUBLIC_URL + `/project-details`}>Event of Shares</Link></h3>
+                                            <h3 className="project-one__title"><Link to={`/project-details`}>Event of Shares</Link></h3>
                                         </div>
                                     </div>
                                 </div>
@@ -32,7 +32,7 @@ export default class ProjectOne extends React.Component {
                                         <img src={publicUrl+"assets/images/project/project-1-2.jpg"} alt="" />
                                         <div className="project-one__content">
                                             <p className="project-one__sub-title">Our Best Projects</p>
-                                            <h3 className="project-one__title"><Link to={process.env.PUBLIC_URL + `/project-details`}>Provides them Poor</Link>
+                                            <h3 className="project-one__title"><Link to={`/project-details`}>Provides them Poor</Link>
                                             </h3>
                                         </div>
                                     </div>
@@ -43,7 +43,7 @@ export default class ProjectOne extends React.Component {
                                         <img src={publicUrl+"assets/images/project/project-1-3.jpg"} alt="" />
                                         <div className="project-one__content">
                                             <p className="project-one__sub-title">Our Best Projects</p>
-                                            <h3 className="project-one__title"><Link to={process.env.PUBLIC_URL + `/project-details`}>Children of Poor</Link>
+                                            <h3 className="project-one__title"><Link to={`/project-details`}>Children of Poor</Link>
                                             </h3>
                                         </div>
                                     </div>
@@ -56,7 +56,7 @@ export default class ProjectOne extends React.Component {
                                         <img src={publicUrl+"assets/images/project/project-1-4.jpg"} alt="" />
                                         <div className="project-one__content">
                                             <p className="project-one__sub-title">Our Best Projects</p>
-                                            <h3 className="project-one__title"><Link to={process.env.PUBLIC_URL + `/project-details`}>History Of Tibet</Link>
+                                            <h3 className="project-one__title"><Link to={`/project-details`}>History Of Tibet</Link>
                                             </h3>
                                         </div>
                                     </div>
@@ -67,7 +67,7 @@ export default class ProjectOne extends React.Component {
                                         <img src={publicUrl+"assets/images/project/project-1-5.jpg"} alt="" />
                                         <div className="project-one__content">
                                             <p className="project-one__sub-title">Our Best Projects</p>
-                                            <h3 className="project-one__title"><Link to={process.env.PUBLIC_URL + `/project-details`}>Drought Information</Link></h3>
+                                            <h3 className="project-one__title"><Link to={`/project-details`}>Drought Information</Link></h3>
                                         </div>
                                     </div>
                                 </div>

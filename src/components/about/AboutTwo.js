@@ -89,7 +89,7 @@ export default class AboutTwo extends React.Component {
                                             </div>
                                         </li>
                                     </ul>
-                                    <Link to={process.env.PUBLIC_URL + `/about`} className="thm-btn about-two__btn">About More</Link>
+                                    <Link to={`/about`} className="thm-btn about-two__btn">About More</Link>
                                 </div>
                             </div>
                         </div>

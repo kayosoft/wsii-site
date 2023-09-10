@@ -119,7 +119,7 @@ export default class DonationDetailsContent extends React.Component {
                                                 </div>
                                             </div>
                                             <div className="donation-details__top-donate-btn-box">
-                                                <Link to={process.env.PUBLIC_URL + `/donate-now`} className="donate-btn thm-btn">Donate Now</Link>
+                                                <Link to={`/donate-now`} className="donate-btn thm-btn">Donate Now</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -201,7 +201,7 @@ export default class DonationDetailsContent extends React.Component {
                                                     typesetting unchanged. It was popularised in the sheets containing lorem
                                                     ipsum is simply free text.</p>
                                                 <span>February 03. 2022</span>
-                                                <Link to={process.env.PUBLIC_URL + `/blog-details`} className="thm-btn comment-one__btn">Reply</Link>
+                                                <Link to={`/blog-details`} className="thm-btn comment-one__btn">Reply</Link>
                                             </div>
                                         </div>
                                         <div className="comment-one__single">
@@ -214,7 +214,7 @@ export default class DonationDetailsContent extends React.Component {
                                                     typesetting unchanged. It was popularised in the sheets containing lorem
                                                     ipsum is simply free text.</p>
                                                 <span>February 03. 2022</span>
-                                                <Link to={process.env.PUBLIC_URL + `/blog-details`} className="thm-btn comment-one__btn">Reply</Link>
+                                                <Link to={`/blog-details`} className="thm-btn comment-one__btn">Reply</Link>
                                             </div>
                                         </div>
                                     </div>

@@ -115,7 +115,7 @@ export default class CausesTwo extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                                <Link to={process.env.PUBLIC_URL + `/about`} className="thm-btn skill-one__btn">More Info</Link>
+                                <Link to={`/about`} className="thm-btn skill-one__btn">More Info</Link>
                             </div>
                         </div>
                     </div>

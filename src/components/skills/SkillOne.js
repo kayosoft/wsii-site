@@ -134,7 +134,7 @@ export default class SkillsOne extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                                <Link to={process.env.PUBLIC_URL + `/about`} className="thm-btn skill-one__btn">Skill More</Link>
+                                <Link to={`/about`} className="thm-btn skill-one__btn">Skill More</Link>
                             </div>
                         </div>
                     </div>

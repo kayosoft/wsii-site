@@ -39,10 +39,10 @@ export default class CausesFour extends React.Component {
                                     </div>
                                     <div className="causes-one__content-box">
                                         <div className="causes-one__donate-btn-box">
-                                            <Link to={process.env.PUBLIC_URL + `/donate-now`} className="thm-btn causes-one__donate-btn">Donate Now</Link>
+                                            <Link to={`/donate-now`} className="thm-btn causes-one__donate-btn">Donate Now</Link>
                                         </div>
                                         <div className="causes-one__content">
-                                            <h3 className="causes-one__title"><Link to={process.env.PUBLIC_URL + `/donation-details`}>Give African Child a
+                                            <h3 className="causes-one__title"><Link to={`/donation-details`}>Give African Child a
                                                     Good Education.</Link>
                                             </h3>
                                             <div className="causes-one__progress">
@@ -57,7 +57,7 @@ export default class CausesFour extends React.Component {
                                                 </div>
                                             </div>
                                             <div className="causes-one__btn-box">
-                                                <Link to={process.env.PUBLIC_URL + `/donation-details`} className="causes-one__read-more">Read More <span
+                                                <Link to={`/donation-details`} className="causes-one__read-more">Read More <span
                                                         className="icon-plus-sign"></span></Link>
                                             </div>
                                         </div>
@@ -93,10 +93,10 @@ export default class CausesFour extends React.Component {
                                     </div>
                                     <div className="causes-one__content-box">
                                         <div className="causes-one__donate-btn-box">
-                                            <Link to={process.env.PUBLIC_URL + `/donate-now`} className="thm-btn causes-one__donate-btn">Donate Now</Link>
+                                            <Link to={`/donate-now`} className="thm-btn causes-one__donate-btn">Donate Now</Link>
                                         </div>
                                         <div className="causes-one__content">
-                                            <h3 className="causes-one__title"><Link to={process.env.PUBLIC_URL + `/donation-details`}>Raise Hand To The Poor
+                                            <h3 className="causes-one__title"><Link to={`/donation-details`}>Raise Hand To The Poor
                                                     Children Education.</Link>
                                             </h3>
                                             <div className="causes-one__progress">
@@ -111,7 +111,7 @@ export default class CausesFour extends React.Component {
                                                 </div>
                                             </div>
                                             <div className="causes-one__btn-box">
-                                                <Link to={process.env.PUBLIC_URL + `/donation-details`} className="causes-one__read-more">Read More <span
+                                                <Link to={`/donation-details`} className="causes-one__read-more">Read More <span
                                                         className="icon-plus-sign"></span></Link>
                                             </div>
                                         </div>
@@ -147,10 +147,10 @@ export default class CausesFour extends React.Component {
                                     </div>
                                     <div className="causes-one__content-box">
                                         <div className="causes-one__donate-btn-box">
-                                            <Link to={process.env.PUBLIC_URL + `/donate-now`} className="thm-btn causes-one__donate-btn">Donate Now</Link>
+                                            <Link to={`/donate-now`} className="thm-btn causes-one__donate-btn">Donate Now</Link>
                                         </div>
                                         <div className="causes-one__content">
-                                            <h3 className="causes-one__title"><Link to={process.env.PUBLIC_URL + `/donation-details`}>Children Education
+                                            <h3 className="causes-one__title"><Link to={`/donation-details`}>Children Education
                                                     Needs For Change The World.</Link>
                                             </h3>
                                             <div className="causes-one__progress">
@@ -165,7 +165,7 @@ export default class CausesFour extends React.Component {
                                                 </div>
                                             </div>
                                             <div className="causes-one__btn-box">
-                                                <Link to={process.env.PUBLIC_URL + `/donation-details`} className="causes-one__read-more">Read More <span
+                                                <Link to={`/donation-details`} className="causes-one__read-more">Read More <span
                                                         className="icon-plus-sign"></span></Link>
                                             </div>
                                         </div>

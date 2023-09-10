@@ -216,7 +216,7 @@ export default class DonateOne extends React.Component {
                                         <div className="donate-now__causes-content-box">
                                             <div className="donate-now__causes-content">
                                                 <h3 className="donate-now__causes-title">
-                                                    <Link to={process.env.PUBLIC_URL + `/donation-details`}>Feeding the Hungry in South Africa</Link>
+                                                    <Link to={`/donation-details`}>Feeding the Hungry in South Africa</Link>
                                                 </h3>
                                                 <p className="donate-now__causes-text">Aellentesque porttitor lacus quis enim varius
                                                     sed efficitur...</p>

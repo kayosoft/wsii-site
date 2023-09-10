@@ -16,7 +16,7 @@ export default class FeatureTwo extends React.Component {
                                         <div className="feature-one__icon">
                                             <span className="icon-donation-1"></span>
                                         </div>
-                                        <h3 className="feature-one__title"><Link to={process.env.PUBLIC_URL + `/about`}>Educational Workshops</Link></h3>
+                                        <h3 className="feature-one__title"><Link to={`/about`}>Educational Workshops</Link></h3>
                                     </div>
                                     <p className="feature-one__text">While building out a new website you
                                         literally no idea of where to start.</p>
@@ -30,7 +30,7 @@ export default class FeatureTwo extends React.Component {
                                         <div className="feature-one__icon">
                                             <span className="icon-heart"></span>
                                         </div>
-                                        <h3 className="feature-one__title"><Link to={process.env.PUBLIC_URL + `/about`}>Online Courses</Link></h3>
+                                        <h3 className="feature-one__title"><Link to={`/about`}>Online Courses</Link></h3>
                                     </div>
                                     <p className="feature-one__text">While building out a new website you
                                         literally no idea of where to start.</p>
@@ -44,7 +44,7 @@ export default class FeatureTwo extends React.Component {
                                         <div className="feature-one__icon">
                                             <span className="icon-help"></span>
                                         </div>
-                                        <h3 className="feature-one__title"><Link to={process.env.PUBLIC_URL + `/about`}>In-Person Training</Link></h3>
+                                        <h3 className="feature-one__title"><Link to={`/about`}>In-Person Training</Link></h3>
                                     </div>
                                     <p className="feature-one__text">While building out a new website you
                                         literally no idea of where to start.</p>

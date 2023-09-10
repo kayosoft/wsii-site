@@ -188,7 +188,7 @@ const SubMenu = ({ item }) => {
 
     return (
         <>
-            <SidebarLink to={process.env.PUBLIC_URL + `${item.path}`} onClick={item.subNav && showSubnav}>
+            <SidebarLink to={`${item.path}`} onClick={item.subNav && showSubnav}>
                 <div>
                     {item.icon}
                     <SidebarLabel>{item.title}</SidebarLabel>
@@ -199,7 +199,7 @@ const SubMenu = ({ item }) => {
             </SidebarLink>
             {subnav &&
                 item.subNav.map((data, index) => (
-                    <DropdownLink to={process.env.PUBLIC_URL + `${data.path}`} key={index}>
+                    <DropdownLink to={`${data.path}`} key={index}>
                         {item.icon}
                         <SidebarLabel>{data.title}</SidebarLabel>
                     </DropdownLink>
@@ -253,7 +253,7 @@ const MobileMenu = () => {
                     <SidebarWrap>
                         <div className="mobile-nav__content">
                             <div className="logo-box">
-                                <Link to={process.env.PUBLIC_URL + `/`} aria-label="logo image"><img src={publicUrl+"assets/images/resources/footer-logo.png"} width="155" alt="" /></Link>
+                                <Link to={`/`} aria-label="logo image"><img src={publicUrl+"assets/images/resources/footer-logo.png"} width="155" alt="" /></Link>
                             </div>
                             <NavIcon to="#">
                                 <AiIcons.AiOutlineClose

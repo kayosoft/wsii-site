@@ -24,7 +24,7 @@ export default class FeatureOne extends React.Component {
                                             <div className="feature-two__icon">
                                                 <span className="icon-donation-1"></span>
                                             </div>
-                                            <h3 className="feature-two__title"><Link to={process.env.PUBLIC_URL + `/about`}>Implest and Quickest</Link></h3>
+                                            <h3 className="feature-two__title"><Link to={`/about`}>Implest and Quickest</Link></h3>
                                         </div>
                                         <p className="feature-two__text">While building out a new website you literally no idea of where to start.</p>
                                     </div>
@@ -41,7 +41,7 @@ export default class FeatureOne extends React.Component {
                                             <div className="feature-two__icon">
                                                 <span className="icon-heart"></span>
                                             </div>
-                                            <h3 className="feature-two__title"><Link to={process.env.PUBLIC_URL + `/about`}>Community of Poor</Link></h3>
+                                            <h3 className="feature-two__title"><Link to={`/about`}>Community of Poor</Link></h3>
                                         </div>
                                         <p className="feature-two__text">While building out a new website you literally no idea of where to start.</p>
                                     </div>
@@ -58,7 +58,7 @@ export default class FeatureOne extends React.Component {
                                             <div className="feature-two__icon">
                                                 <span className="icon-help"></span>
                                             </div>
-                                            <h3 className="feature-two__title"><Link to={process.env.PUBLIC_URL + `/about`}>Children of Helps</Link></h3>
+                                            <h3 className="feature-two__title"><Link to={`/about`}>Children of Helps</Link></h3>
                                         </div>
                                         <p className="feature-two__text">While building out a new website you literally no idea of where to start.</p>
                                     </div>

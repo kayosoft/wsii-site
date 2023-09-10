@@ -25,8 +25,8 @@ export default class SingleBlogDetails extends React.Component {
                                     </div>
                                     <div className="blog-details__content">
                                         <ul className="blog-details__meta list-unstyled">
-                                            <li><Link to={process.env.PUBLIC_URL + `/blog-details`}><i className="far fa-comment"></i><span>(2)</span></Link></li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/blog-details`}><i className="far fa-thumbs-up"></i><span>(2)</span></Link></li>
+                                            <li><Link to={`/blog-details`}><i className="far fa-comment"></i><span>(2)</span></Link></li>
+                                            <li><Link to={`/blog-details`}><i className="far fa-thumbs-up"></i><span>(2)</span></Link></li>
                                         </ul>
                                         <h3 className="blog-details__title">Nemo enim ipsam voluptatem quia voluptas sit aspernatur
                                             aut odit aut fugit</h3>
@@ -100,7 +100,7 @@ export default class SingleBlogDetails extends React.Component {
                                                     typesetting unchanged. It was popularised in the sheets containing lorem
                                                     ipsum is simply free text.</p>
                                                 <span>February 03. 2022</span>
-                                                <Link to={process.env.PUBLIC_URL + `/blog-details`} className="thm-btn comment-one__btn">Reply</Link>
+                                                <Link to={`/blog-details`} className="thm-btn comment-one__btn">Reply</Link>
                                             </div>
                                         </div>
                                         <div className="comment-one__single">
@@ -113,7 +113,7 @@ export default class SingleBlogDetails extends React.Component {
                                                     typesetting unchanged. It was popularised in the sheets containing lorem
                                                     ipsum is simply free text.</p>
                                                 <span>February 03. 2022</span>
-                                                <Link to={process.env.PUBLIC_URL + `/blog-details`} className="thm-btn comment-one__btn">Reply</Link>
+                                                <Link to={`/blog-details`} className="thm-btn comment-one__btn">Reply</Link>
                                             </div>
                                         </div>
                                     </div>

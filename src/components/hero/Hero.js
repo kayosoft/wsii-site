@@ -44,7 +44,7 @@ export default class Hero extends React.Component {
                                             <div className="main-slider__content">
                                                 <h2>Empowering <span>Women's</span> Health. <br /> </h2>
                                                 <p>Welcome to Women Self Inject Initiative, where we empower women to make informed choices about their reproductive health. Our mission is to provide knowledge, support, and resources to women of all backgrounds, helping them gain the confidence and skills they need to self-administer contraceptive injections safely and effectively.</p>
-                                                <Link to={process.env.PUBLIC_URL + `/about`} className="thm-btn main-slider__btn">Leran More</Link>
+                                                <Link to={`/about`} className="thm-btn main-slider__btn">Leran More</Link>
                                                 <div className="main-slider-arrow">
                                                     <img src={publicUrl+"assets/images/shapes/main-slider-shape-1.png"} className="float-bob-x" alt="" />
                                                 </div>
@@ -72,7 +72,7 @@ export default class Hero extends React.Component {
                                                 <h2>Lets <span>Chenge</span> The World <br /> With Humanity.</h2>
                                                 <p>There are many variations of passages of Lorem Ipsum Fasts by <br /> injected
                                                     humour, or randomised words which... </p>
-                                                <Link to={process.env.PUBLIC_URL + `/about`} className="thm-btn main-slider__btn">Leran More</Link>
+                                                <Link to={`/about`} className="thm-btn main-slider__btn">Leran More</Link>
                                                 <div className="main-slider-arrow">
                                                     <img src={publicUrl+"assets/images/shapes/main-slider-shape-1.png"} className="float-bob-x" alt="" />
                                                 </div>
@@ -100,7 +100,7 @@ export default class Hero extends React.Component {
                                                 <h2>Give the <span>Poor</span> Help <br /> for Families.</h2>
                                                 <p>There are many variations of passages of Lorem Ipsum Fasts by <br /> injected
                                                     humour, or randomised words which... </p>
-                                                <Link to={process.env.PUBLIC_URL + `/about`} className="thm-btn main-slider__btn">Leran More</Link>
+                                                <Link to={`/about`} className="thm-btn main-slider__btn">Leran More</Link>
                                                 <div className="main-slider-arrow">
                                                     <img src={publicUrl+"assets/images/shapes/main-slider-shape-1.png"} className="float-bob-x" alt="" />
                                                 </div>

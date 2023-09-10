@@ -13,7 +13,7 @@ export default class FooterTwo extends React.Component {
                                 <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                                     <div className="footer-widget__column footer-widget__about">
                                         <div className="footer-widget__about-logo">
-                                            <Link to={process.env.PUBLIC_URL + `/`}><img src={publicUrl+"assets/images/resources/footer-logo.png"} alt="" /></Link>
+                                            <Link to={`/`}><img src={publicUrl+"assets/images/resources/footer-logo.png"} alt="" /></Link>
                                         </div>
                                         <ul className="list-unstyled footer-widget__list">
                                             <li>
@@ -53,11 +53,11 @@ export default class FooterTwo extends React.Component {
                                     <div className="footer-widget__column footer-widget__service clearfix">
                                         <h3 className="footer-widget__title">Service</h3>
                                         <ul className="footer-widget__service-list list-unstyled clearfix">
-                                            <li><Link to={process.env.PUBLIC_URL + `/about`}>Why choose us</Link></li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/about`}>Our solutions</Link></li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/about`}>Partners</Link></li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/about`}>Core values</Link></li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/projects`}>Our projects</Link></li>
+                                            <li><Link to={`/about`}>Why choose us</Link></li>
+                                            <li><Link to={`/about`}>Our solutions</Link></li>
+                                            <li><Link to={`/about`}>Partners</Link></li>
+                                            <li><Link to={`/about`}>Core values</Link></li>
+                                            <li><Link to={`/projects`}>Our projects</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -65,11 +65,11 @@ export default class FooterTwo extends React.Component {
                                     <div className="footer-widget__column footer-widget__links clearfix">
                                         <h3 className="footer-widget__title">Quick Link</h3>
                                         <ul className="footer-widget__links-list list-unstyled clearfix">
-                                            <li><Link to={process.env.PUBLIC_URL + `/donate-now`}>How To Donate</Link></li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/about`}>Business</Link></li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/donation`}>Online Service</Link></li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/about`}>Visiting</Link></li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/about`}>Employment</Link></li>
+                                            <li><Link to={`/donate-now`}>How To Donate</Link></li>
+                                            <li><Link to={`/about`}>Business</Link></li>
+                                            <li><Link to={`/donation`}>Online Service</Link></li>
+                                            <li><Link to={`/about`}>Visiting</Link></li>
+                                            <li><Link to={`/about`}>Employment</Link></li>
                                         </ul>
                                     </div>
                                 </div>

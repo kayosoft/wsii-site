@@ -16,7 +16,7 @@ export default class BlogLatestPost extends React.Component {
                             <div className="sidebar__post-content">
                                 <h3>
                                     <span className="sidebar__post-content-meta"><i className="far fa-user-circle"></i> Admin</span>
-                                    <Link to={process.env.PUBLIC_URL + `/blog-details`}>Promoting the Rights of Children</Link>
+                                    <Link to={`/blog-details`}>Promoting the Rights of Children</Link>
                                 </h3>
                             </div>
                         </li>
@@ -27,7 +27,7 @@ export default class BlogLatestPost extends React.Component {
                             <div className="sidebar__post-content">
                                 <h3>
                                     <span className="sidebar__post-content-meta"><i className="far fa-user-circle"></i> Admin</span>
-                                    <Link to={process.env.PUBLIC_URL + `/blog-details`}>It is a long established fact</Link>
+                                    <Link to={`/blog-details`}>It is a long established fact</Link>
                                 </h3>
                             </div>
                         </li>
@@ -38,7 +38,7 @@ export default class BlogLatestPost extends React.Component {
                             <div className="sidebar__post-content">
                                 <h3>
                                     <span className="sidebar__post-content-meta"><i className="far fa-user-circle"></i> Admin</span>
-                                    <Link to={process.env.PUBLIC_URL + `/blog-details`}>The standard chunk of Lorem Ipsum</Link>
+                                    <Link to={`/blog-details`}>The standard chunk of Lorem Ipsum</Link>
                                 </h3>
                             </div>
                         </li>

@@ -20,7 +20,7 @@ export default class TeamTwo extends React.Component {
                                         <img src={publicUrl+"assets/images/team/team-1-1.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Kavin Martin</Link></h4>
+                                        <h4 className="team-one__name"><Link to={`/team-details`}>Kavin Martin</Link></h4>
                                         <p className="team-one__title">Ceo</p>
                                         <div className="team-one__social">
                                             <a href="#"><i className="fab fa-twitter"></i></a>
@@ -38,7 +38,7 @@ export default class TeamTwo extends React.Component {
                                         <img src={publicUrl+"assets/images/team/team-1-2.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>David Malan</Link></h4>
+                                        <h4 className="team-one__name"><Link to={`/team-details`}>David Malan</Link></h4>
                                         <p className="team-one__title">Volunteer</p>
                                         <div className="team-one__social">
                                             <a href="#"><i className="fab fa-twitter"></i></a>
@@ -56,7 +56,7 @@ export default class TeamTwo extends React.Component {
                                         <img src={publicUrl+"assets/images/team/team-1-3.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>David Hardson</Link></h4>
+                                        <h4 className="team-one__name"><Link to={`/team-details`}>David Hardson</Link></h4>
                                         <p className="team-one__title">Team Leader</p>
                                         <div className="team-one__social">
                                             <a href="#"><i className="fab fa-twitter"></i></a>
@@ -74,7 +74,7 @@ export default class TeamTwo extends React.Component {
                                         <img src={publicUrl+"assets/images/team/team-1-4.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Dean Elgar</Link></h4>
+                                        <h4 className="team-one__name"><Link to={`/team-details`}>Dean Elgar</Link></h4>
                                         <p className="team-one__title">Founder</p>
                                         <div className="team-one__social">
                                             <a href="#"><i className="fab fa-twitter"></i></a>
@@ -92,7 +92,7 @@ export default class TeamTwo extends React.Component {
                                         <img src={publicUrl+"assets/images/team/team-1-5.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>David Copper</Link></h4>
+                                        <h4 className="team-one__name"><Link to={`/team-details`}>David Copper</Link></h4>
                                         <p className="team-one__title">Manager</p>
                                         <div className="team-one__social">
                                             <a href="#"><i className="fab fa-twitter"></i></a>
@@ -110,7 +110,7 @@ export default class TeamTwo extends React.Component {
                                         <img src={publicUrl+"assets/images/team/team-1-6.jpg"} alt="" />
                                     </div>
                                     <div className="team-one__content">
-                                        <h4 className="team-one__name"><Link to={process.env.PUBLIC_URL + `/team-details`}>Mike Hardson</Link></h4>
+                                        <h4 className="team-one__name"><Link to={`/team-details`}>Mike Hardson</Link></h4>
                                         <p className="team-one__title">Fundraise</p>
                                         <div className="team-one__social">
                                             <a href="#"><i className="fab fa-twitter"></i></a>

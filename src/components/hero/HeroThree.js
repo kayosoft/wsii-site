@@ -41,7 +41,7 @@ export default class HeroThree extends React.Component {
                                                 <h2>Give the <span>Poor</span> Help <br /> for Families.</h2>
                                                 <p>There are many variations of passages of Lorem Ipsum Fasts <br /> by injected
                                                     humour, or randomised words which... </p>
-                                                <Link to={process.env.PUBLIC_URL + `/about`} className="thm-btn main-slider__btn">Leran More</Link>
+                                                <Link to={`/about`} className="thm-btn main-slider__btn">Leran More</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -62,7 +62,7 @@ export default class HeroThree extends React.Component {
                                                 <h2>Give the <span>Poor</span> Help <br /> for Families.</h2>
                                                 <p>There are many variations of passages of Lorem Ipsum Fasts <br /> by injected
                                                     humour, or randomised words which... </p>
-                                                <Link to={process.env.PUBLIC_URL + `/about`} className="thm-btn main-slider__btn">Leran More</Link>
+                                                <Link to={`/about`} className="thm-btn main-slider__btn">Leran More</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -83,7 +83,7 @@ export default class HeroThree extends React.Component {
                                                 <h2>Give the <span>Poor</span> Help <br /> for Families.</h2>
                                                 <p>There are many variations of passages of Lorem Ipsum Fasts <br /> by injected
                                                     humour, or randomised words which... </p>
-                                                <Link to={process.env.PUBLIC_URL + `/about`} className="thm-btn main-slider__btn">Leran More</Link>
+                                                <Link to={`/about`} className="thm-btn main-slider__btn">Leran More</Link>
                                             </div>
                                         </div>
                                     </div>

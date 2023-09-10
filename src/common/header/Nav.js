@@ -6,11 +6,11 @@ const Nav = () => {
         <div className="main-menu text-center">
             <nav>
                 <ul className="main-menu__list">
-                <li className='current'><Link to={process.env.PUBLIC_URL + `/`}>Home</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + `/about`}>About</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + `/events`}>Events</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + `/blog`}>Blog</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + `/contact`}>Contact</Link></li>
+                <li className='current'><Link to={`/`}>Home</Link></li>
+                    <li><Link to={`/about`}>About</Link></li>
+                    <li><Link to={`/events`}>Events</Link></li>
+                    <li><Link to={`/blog`}>Blog</Link></li>
+                    <li><Link to={`/contact`}>Contact</Link></li>
                 </ul>
             </nav>
         </div>

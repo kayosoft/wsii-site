@@ -15,7 +15,7 @@ export default class Breadcrumb extends React.Component {
                         <div className="page-header__inner">
                             <h2>{heading}</h2>
                             <ul className="thm-breadcrumb list-unstyled">
-                                <li><Link to={process.env.PUBLIC_URL + `/`}>Home</Link></li>
+                                <li><Link to={`/`}>Home</Link></li>
                                 <li><span>/</span></li>
                                 <li className="active">{currentPage}</li>
                             </ul>

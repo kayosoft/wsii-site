@@ -43,8 +43,8 @@ export default class Header extends React.Component {
                                 </div>
                                 <div className="main-header__top-right">
                                     <ul className="list-unstyled main-header__top-right-content">
-                                        <li><Link to={process.env.PUBLIC_URL + `/`}>Login</Link></li>
-                                        <li><Link to={process.env.PUBLIC_URL + `/`}>Help You</Link></li>
+                                        <li><Link to={`/`}>Login</Link></li>
+                                        <li><Link to={`/`}>Help You</Link></li>
                                         <SearchButton />
                                     </ul>
                                 </div>
@@ -56,8 +56,8 @@ export default class Header extends React.Component {
                             <div className="main-menu-wrapper clearfix">
                                 <div className="main-menu-wrapper__left">
                                     <div className="main-menu-wrapper__logo">
-                                        <Link to={process.env.PUBLIC_URL + `/`}>
-                                            <img src={publicUrl+"assets/images/resources/logo-1.png"} alt="" />
+                                        <Link to={`/`}>
+                                            <img src={publicUrl+"assets/images/resources/image-002.png"} alt="" />
                                         </Link>
                                     </div>
                                 </div>
@@ -66,7 +66,7 @@ export default class Header extends React.Component {
                                         <MobileMenu />
                                         <Nav />
                                     </div>
-                                    <Link to={process.env.PUBLIC_URL + `/donate-now`} className="thm-btn main-header__btn">Donate Now</Link>
+                                    <Link to={`/donate-now`} className="thm-btn main-header__btn">Donate Now</Link>
                                 </div>
                             </div>
                         </div>

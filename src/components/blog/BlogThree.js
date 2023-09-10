@@ -22,7 +22,7 @@ export default class BlogThree extends React.Component {
                                         <div className="blog-sidebar__single">
                                             <div className="blog-sidebar__img">
                                                 <img src={publicUrl+"assets/images/blog/blog-sidebar-img-1.jpg"} alt="" />
-                                                <Link to={process.env.PUBLIC_URL + `/blog-details`}>
+                                                <Link to={`/blog-details`}>
                                                     <span className="blog-one__plus"></span>
                                                 </Link>
                                             </div>
@@ -35,7 +35,7 @@ export default class BlogThree extends React.Component {
                                                         <p> <span className="icon-calendar"></span> Nov 09 2022</p>
                                                     </div>
                                                 </div>
-                                                <h3 className="blog-sidebar__title"><Link to={process.env.PUBLIC_URL + `/blog-details`}>We ariations
+                                                <h3 className="blog-sidebar__title"><Link to={`/blog-details`}>We ariations
                                                         passages of Lorem Ipsum available, but the majority have suffered
                                                         alteration in some form.</Link></h3>
                                                 <p className="blog-sidebar__text">Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -48,7 +48,7 @@ export default class BlogThree extends React.Component {
                                         <div className="blog-sidebar__single">
                                             <div className="blog-sidebar__img">
                                                 <img src={publicUrl+"assets/images/blog/blog-sidebar-img-2.jpg"} alt="" />
-                                                <Link to={process.env.PUBLIC_URL + `/blog-details`}>
+                                                <Link to={`/blog-details`}>
                                                     <span className="blog-one__plus"></span>
                                                 </Link>
                                             </div>
@@ -61,7 +61,7 @@ export default class BlogThree extends React.Component {
                                                         <p> <span className="icon-calendar"></span> Nov 09 2022</p>
                                                     </div>
                                                 </div>
-                                                <h3 className="blog-sidebar__title"><Link to={process.env.PUBLIC_URL + `/blog-details`}>It is a long
+                                                <h3 className="blog-sidebar__title"><Link to={`/blog-details`}>It is a long
                                                         established fact that a reader will be distracted by the readable
                                                         content of a page</Link></h3>
                                                 <p className="blog-sidebar__text">Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -74,7 +74,7 @@ export default class BlogThree extends React.Component {
                                         <div className="blog-sidebar__single">
                                             <div className="blog-sidebar__img">
                                                 <img src={publicUrl+"assets/images/blog/blog-sidebar-img-3.jpg"} alt="" />
-                                                <Link to={process.env.PUBLIC_URL + `/blog-details`}>
+                                                <Link to={`/blog-details`}>
                                                     <span className="blog-one__plus"></span>
                                                 </Link>
                                             </div>
@@ -87,7 +87,7 @@ export default class BlogThree extends React.Component {
                                                         <p> <span className="icon-calendar"></span> Nov 09 2022</p>
                                                     </div>
                                                 </div>
-                                                <h3 className="blog-sidebar__title"><Link to={process.env.PUBLIC_URL + `/blog-details`}>There are many
+                                                <h3 className="blog-sidebar__title"><Link to={`/blog-details`}>There are many
                                                         variations of passages of Lorem Ipsum available, but the majority have
                                                         suffered alteration</Link></h3>
                                                 <p className="blog-sidebar__text">Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -100,7 +100,7 @@ export default class BlogThree extends React.Component {
                                         <div className="blog-sidebar__single">
                                             <div className="blog-sidebar__img">
                                                 <img src={publicUrl+"assets/images/blog/blog-sidebar-img-4.jpg"} alt="" />
-                                                <Link to={process.env.PUBLIC_URL + `/blog-details`}>
+                                                <Link to={`/blog-details`}>
                                                     <span className="blog-one__plus"></span>
                                                 </Link>
                                             </div>
@@ -113,7 +113,7 @@ export default class BlogThree extends React.Component {
                                                         <p> <span className="icon-calendar"></span> Nov 09 2022</p>
                                                     </div>
                                                 </div>
-                                                <h3 className="blog-sidebar__title"><Link to={process.env.PUBLIC_URL + `/blog-details`}>The standard chunk
+                                                <h3 className="blog-sidebar__title"><Link to={`/blog-details`}>The standard chunk
                                                         of Lorem Ipsum used since the 1500s is reproduced below for those
                                                         interested</Link></h3>
                                                 <p className="blog-sidebar__text">Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -126,7 +126,7 @@ export default class BlogThree extends React.Component {
                                         <div className="blog-sidebar__single">
                                             <div className="blog-sidebar__img">
                                                 <img src={publicUrl+"assets/images/blog/blog-sidebar-img-5.jpg"} alt="" />
-                                                <Link to={process.env.PUBLIC_URL + `/blog-details`}>
+                                                <Link to={`/blog-details`}>
                                                     <span className="blog-one__plus"></span>
                                                 </Link>
                                             </div>
@@ -139,7 +139,7 @@ export default class BlogThree extends React.Component {
                                                         <p> <span className="icon-calendar"></span> Nov 09 2022</p>
                                                     </div>
                                                 </div>
-                                                <h3 className="blog-sidebar__title"><Link to={process.env.PUBLIC_URL + `/blog-details`}>Lorem Ipsum has been
+                                                <h3 className="blog-sidebar__title"><Link to={`/blog-details`}>Lorem Ipsum has been
                                                         the industry's standard dummy text ever since</Link></h3>
                                                 <p className="blog-sidebar__text">Lorem ipsum dolor sit amet, consectetur adipiscing
                                                     elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

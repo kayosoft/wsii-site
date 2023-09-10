@@ -17,7 +17,7 @@ export default class CtaOne extends React.Component {
                                         <h2 className="cta-one__title">Let’s Make a Difference in <br /> the Lives of Others</h2>
                                     </div>
                                     <div className="cta-one__right">
-                                        <Link to={process.env.PUBLIC_URL + `/team-details`} className="thm-btn cta-one__btn">become a volunteer</Link>
+                                        <Link to={`/team-details`} className="thm-btn cta-one__btn">become a volunteer</Link>
                                     </div>
                                 </div>
                             </div>

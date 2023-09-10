@@ -15,7 +15,7 @@ export default class HeaderTwo extends React.Component {
                         <div className="main-menu-wrapper clearfix">
                             <div className="main-menu-wrapper__left">
                                 <div className="main-menu-wrapper__logo">
-                                    <Link to={process.env.PUBLIC_URL + `/`}>
+                                    <Link to={`/`}>
                                         <img src={publicUrl+"assets/images/resources/logo-2.png"} alt="" />
                                     </Link>
                                 </div>
@@ -25,7 +25,7 @@ export default class HeaderTwo extends React.Component {
                                     <MobileMenu />
                                     <Nav />
                                 </div>
-                                <Link to={process.env.PUBLIC_URL + `/donate-now`} className="thm-btn main-header__btn">Donate Now</Link>
+                                <Link to={`/donate-now`} className="thm-btn main-header__btn">Donate Now</Link>
                             </div>
                         </div>
                     </div>

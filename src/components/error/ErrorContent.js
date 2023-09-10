@@ -16,7 +16,7 @@ export default class ErrorContent extends React.Component {
                                     </div>
                                     <p className="error-page__text">Sorry This Page Not found take a look at our most popular</p>
                                     <div className="error-page__btn-box">
-                                        <Link to={process.env.PUBLIC_URL + `/`} className="thm-btn error-page__btn">Go To Home</Link>
+                                        <Link to={`/`} className="thm-btn error-page__btn">Go To Home</Link>
                                     </div>
                                 </div>
                             </div>

@@ -21,12 +21,12 @@ export default class BlogOne extends React.Component {
                                     </div>
                                     <div className="blog-three__content">
                                         <ul className="list-unstyled blog-three__meta">
-                                            <li><Link to={process.env.PUBLIC_URL + `/blog-details`}><i className="far fa-clock"></i> by Admin </Link>
+                                            <li><Link to={`/blog-details`}><i className="far fa-clock"></i> by Admin </Link>
                                             </li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/blog-details`}><i className="far fa-calendar"></i> May 20, 2022</Link>
+                                            <li><Link to={`/blog-details`}><i className="far fa-calendar"></i> May 20, 2022</Link>
                                             </li>
                                         </ul>
-                                        <h3 className="blog-three__title"><Link to={process.env.PUBLIC_URL + `/blog-details`}>Bring to the table win-win
+                                        <h3 className="blog-three__title"><Link to={`/blog-details`}>Bring to the table win-win
                                                 survival</Link></h3>
                                         <div className="blog-three__person">
                                             <div className="blog-three__person-img">
@@ -47,12 +47,12 @@ export default class BlogOne extends React.Component {
                                     </div>
                                     <div className="blog-three__content">
                                         <ul className="list-unstyled blog-three__meta">
-                                            <li><Link to={process.env.PUBLIC_URL + `/blog-details`}><i className="far fa-clock"></i> by Admin </Link>
+                                            <li><Link to={`/blog-details`}><i className="far fa-clock"></i> by Admin </Link>
                                             </li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/blog-details`}><i className="far fa-calendar"></i> May 20, 2022</Link>
+                                            <li><Link to={`/blog-details`}><i className="far fa-calendar"></i> May 20, 2022</Link>
                                             </li>
                                         </ul>
-                                        <h3 className="blog-three__title"><Link to={process.env.PUBLIC_URL + `/blog-details`}>will provide an ats resume
+                                        <h3 className="blog-three__title"><Link to={`/blog-details`}>will provide an ats resume
                                                 writing and Blog.</Link></h3>
                                         <div className="blog-three__person">
                                             <div className="blog-three__person-img">
@@ -73,12 +73,12 @@ export default class BlogOne extends React.Component {
                                     </div>
                                     <div className="blog-three__content">
                                         <ul className="list-unstyled blog-three__meta">
-                                            <li><Link to={process.env.PUBLIC_URL + `/blog-details`}><i className="far fa-clock"></i> by Admin </Link>
+                                            <li><Link to={`/blog-details`}><i className="far fa-clock"></i> by Admin </Link>
                                             </li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/blog-details`}><i className="far fa-calendar"></i> May 20, 2022</Link>
+                                            <li><Link to={`/blog-details`}><i className="far fa-calendar"></i> May 20, 2022</Link>
                                             </li>
                                         </ul>
-                                        <h3 className="blog-three__title"><Link to={process.env.PUBLIC_URL + `/blog-details`}>Leverage agile frameworks to
+                                        <h3 className="blog-three__title"><Link to={`/blog-details`}>Leverage agile frameworks to
                                                 provide</Link></h3>
                                         <div className="blog-three__person">
                                             <div className="blog-three__person-img">
@@ -99,12 +99,12 @@ export default class BlogOne extends React.Component {
                                     </div>
                                     <div className="blog-three__content">
                                         <ul className="list-unstyled blog-three__meta">
-                                            <li><Link to={process.env.PUBLIC_URL + `/blog-details`}><i className="far fa-clock"></i> by Admin </Link>
+                                            <li><Link to={`/blog-details`}><i className="far fa-clock"></i> by Admin </Link>
                                             </li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/blog-details`}><i className="far fa-calendar"></i> May 20, 2022</Link>
+                                            <li><Link to={`/blog-details`}><i className="far fa-calendar"></i> May 20, 2022</Link>
                                             </li>
                                         </ul>
-                                        <h3 className="blog-three__title"><Link to={process.env.PUBLIC_URL + `/blog-details`}>Capitalize on low hanging
+                                        <h3 className="blog-three__title"><Link to={`/blog-details`}>Capitalize on low hanging
                                                 fruit</Link></h3>
                                         <div className="blog-three__person">
                                             <div className="blog-three__person-img">
@@ -125,12 +125,12 @@ export default class BlogOne extends React.Component {
                                     </div>
                                     <div className="blog-three__content">
                                         <ul className="list-unstyled blog-three__meta">
-                                            <li><Link to={process.env.PUBLIC_URL + `/blog-details`}><i className="far fa-clock"></i> by Admin </Link>
+                                            <li><Link to={`/blog-details`}><i className="far fa-clock"></i> by Admin </Link>
                                             </li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/blog-details`}><i className="far fa-calendar"></i> May 20, 2022</Link>
+                                            <li><Link to={`/blog-details`}><i className="far fa-calendar"></i> May 20, 2022</Link>
                                             </li>
                                         </ul>
-                                        <h3 className="blog-three__title"><Link to={process.env.PUBLIC_URL + `/blog-details`}>A quick solutions for daily
+                                        <h3 className="blog-three__title"><Link to={`/blog-details`}>A quick solutions for daily
                                                 problem</Link></h3>
                                         <div className="blog-three__person">
                                             <div className="blog-three__person-img">
@@ -151,12 +151,12 @@ export default class BlogOne extends React.Component {
                                     </div>
                                     <div className="blog-three__content">
                                         <ul className="list-unstyled blog-three__meta">
-                                            <li><Link to={process.env.PUBLIC_URL + `/blog-details`}><i className="far fa-clock"></i> by Admin </Link>
+                                            <li><Link to={`/blog-details`}><i className="far fa-clock"></i> by Admin </Link>
                                             </li>
-                                            <li><Link to={process.env.PUBLIC_URL + `/blog-details`}><i className="far fa-calendar"></i> May 20, 2022</Link>
+                                            <li><Link to={`/blog-details`}><i className="far fa-calendar"></i> May 20, 2022</Link>
                                             </li>
                                         </ul>
-                                        <h3 className="blog-three__title"><Link to={process.env.PUBLIC_URL + `/blog-details`}>Podcasting operational
+                                        <h3 className="blog-three__title"><Link to={`/blog-details`}>Podcasting operational
                                                 change</Link></h3>
                                         <div className="blog-three__person">
                                             <div className="blog-three__person-img">

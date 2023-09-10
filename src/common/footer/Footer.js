@@ -46,7 +46,7 @@ export default class Footer extends React.Component {
                                 <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                                     <div className="footer-widget__column footer-widget-one__about">
                                         <div className="footer-widget-one__about-logo">
-                                            <Link to={process.env.PUBLIC_URL + `/`}><img src={publicUrl+"assets/images/resources/footer-logo.png"} alt="" /></Link>
+                                            <Link to={ `/`}><img src={publicUrl+"assets/images/resources/footer-logos.png"} alt="" /></Link>
                                         </div>
                                         <p className="footer-widget-one__about-text">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam iaculis lorem augue, at
@@ -88,55 +88,55 @@ export default class Footer extends React.Component {
                                             <li>
                                                 <div className="footer-widget-one__gallery-img">
                                                     <img src={publicUrl+"assets/images/resources/footer-widget-one-gallery-1.jpg"} alt="" />
-                                                    <Link to={process.env.PUBLIC_URL + `/project-details`}><span className="fa fa-link"></span></Link>
+                                                    <Link to={ `/project-details`}><span className="fa fa-link"></span></Link>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="footer-widget-one__gallery-img">
                                                     <img src={publicUrl+"assets/images/resources/footer-widget-one-gallery-2.jpg"} alt="" />
-                                                    <Link to={process.env.PUBLIC_URL + `/project-details`}><span className="fa fa-link"></span></Link>
+                                                    <Link to={ `/project-details`}><span className="fa fa-link"></span></Link>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="footer-widget-one__gallery-img">
                                                     <img src={publicUrl+"assets/images/resources/footer-widget-one-gallery-3.jpg"} alt="" />
-                                                    <Link to={process.env.PUBLIC_URL + `/project-details`}><span className="fa fa-link"></span></Link>
+                                                    <Link to={ `/project-details`}><span className="fa fa-link"></span></Link>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="footer-widget-one__gallery-img">
                                                     <img src={publicUrl+"assets/images/resources/footer-widget-one-gallery-4.jpg"} alt="" />
-                                                    <Link to={process.env.PUBLIC_URL + `/project-details`}><span className="fa fa-link"></span></Link>
+                                                    <Link to={ `/project-details`}><span className="fa fa-link"></span></Link>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="footer-widget-one__gallery-img">
                                                     <img src={publicUrl+"assets/images/resources/footer-widget-one-gallery-5.jpg"} alt="" />
-                                                    <Link to={process.env.PUBLIC_URL + `/project-details`}><span className="fa fa-link"></span></Link>
+                                                    <Link to={ `/project-details`}><span className="fa fa-link"></span></Link>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="footer-widget-one__gallery-img">
                                                     <img src={publicUrl+"assets/images/resources/footer-widget-one-gallery-6.jpg"} alt="" />
-                                                    <Link to={process.env.PUBLIC_URL + `/project-details`}><span className="fa fa-link"></span></Link>
+                                                    <Link to={ `/project-details`}><span className="fa fa-link"></span></Link>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="footer-widget-one__gallery-img">
                                                     <img src={publicUrl+"assets/images/resources/footer-widget-one-gallery-7.jpg"} alt="" />
-                                                    <Link to={process.env.PUBLIC_URL + `/project-details`}><span className="fa fa-link"></span></Link>
+                                                    <Link to={ `/project-details`}><span className="fa fa-link"></span></Link>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="footer-widget-one__gallery-img">
                                                     <img src={publicUrl+"assets/images/resources/footer-widget-one-gallery-8.jpg"} alt="" />
-                                                    <Link to={process.env.PUBLIC_URL + `/project-details`}><span className="fa fa-link"></span></Link>
+                                                    <Link to={ `/project-details`}><span className="fa fa-link"></span></Link>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="footer-widget-one__gallery-img">
                                                     <img src={publicUrl+"assets/images/resources/footer-widget-one-gallery-9.jpg"} alt="" />
-                                                    <Link to={process.env.PUBLIC_URL + `/project-details`}><span className="fa fa-link"></span></Link>
+                                                    <Link to={ `/project-details`}><span className="fa fa-link"></span></Link>
                                                 </div>
                                             </li>
                                         </ul>
@@ -149,7 +149,7 @@ export default class Footer extends React.Component {
                                             <li>
                                                 <div className="footer-widget-one__latest-works-content">
                                                     <h4 className="footer-widget-one__latest-works-title">
-                                                        <Link to={process.env.PUBLIC_URL + `/blog-details`}>Change your Life Through Education</Link>
+                                                        <Link to={ `/blog-details`}>Change your Life Through Education</Link>
                                                     </h4>
                                                     <p className="footer-widget-one__latest-works-date">
                                                         July 29, 20222
@@ -159,7 +159,7 @@ export default class Footer extends React.Component {
                                             <li>
                                                 <div className="footer-widget-one__latest-works-content">
                                                     <h4 className="footer-widget-one__latest-works-title">
-                                                        <Link to={process.env.PUBLIC_URL + `/blog-details`}>Donate your woolens this winter</Link>
+                                                        <Link to={ `/blog-details`}>Donate your woolens this winter</Link>
                                                     </h4>
                                                     <p className="footer-widget-one__latest-works-date">
                                                         July 29, 20222

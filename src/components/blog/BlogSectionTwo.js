@@ -18,7 +18,7 @@ export default class BlogSectionTwo extends React.Component {
                                 <div className="blog-one__single">
                                     <div className="blog-one__img">
                                         <img src={publicUrl+"assets/images/blog/blog-1-1.jpg"} alt="" />
-                                        <Link to={process.env.PUBLIC_URL + `/blog-details`}>
+                                        <Link to={`/blog-details`}>
                                             <span className="blog-one__plus"></span>
                                         </Link>
                                     </div>
@@ -31,7 +31,7 @@ export default class BlogSectionTwo extends React.Component {
                                                 <p> <span className="icon-calendar-1"></span> Nov 09 2022</p>
                                             </div>
                                         </div>
-                                        <h3 className="blog-one__title"><Link to={process.env.PUBLIC_URL + `/blog-details`}>will provide an ats resume writing and Blog. </Link></h3>
+                                        <h3 className="blog-one__title"><Link to={`/blog-details`}>will provide an ats resume writing and Blog. </Link></h3>
                                         <p className="blog-one__text">Lorem ipsum dolor sit amet,elit, sed do eiusmod tempor incididunt ut labore et dolore aliqu</p>
                                     </div>
                                 </div>
@@ -41,7 +41,7 @@ export default class BlogSectionTwo extends React.Component {
                                 <div className="blog-one__single">
                                     <div className="blog-one__img">
                                         <img src={publicUrl+"assets/images/blog/blog-1-2.jpg"} alt="" />
-                                        <Link to={process.env.PUBLIC_URL + `/blog-details`}>
+                                        <Link to={`/blog-details`}>
                                             <span className="blog-one__plus"></span>
                                         </Link>
                                     </div>
@@ -54,7 +54,7 @@ export default class BlogSectionTwo extends React.Component {
                                                 <p> <span className="icon-calendar-1"></span> Nov 09 2022</p>
                                             </div>
                                         </div>
-                                        <h3 className="blog-one__title"><Link to={process.env.PUBLIC_URL + `/blog-details`}>Leverage agile frameworks to provide</Link></h3>
+                                        <h3 className="blog-one__title"><Link to={`/blog-details`}>Leverage agile frameworks to provide</Link></h3>
                                         <p className="blog-one__text">Lorem ipsum dolor sit amet,elit, sed do eiusmod tempor incididunt ut labore et dolore aliqu</p>
                                     </div>
                                 </div>
@@ -64,7 +64,7 @@ export default class BlogSectionTwo extends React.Component {
                                 <div className="blog-one__single">
                                     <div className="blog-one__img">
                                         <img src={publicUrl+"assets/images/blog/blog-1-3.jpg"} alt="" />
-                                        <Link to={process.env.PUBLIC_URL + `/blog-details`}>
+                                        <Link to={`/blog-details`}>
                                             <span className="blog-one__plus"></span>
                                         </Link>
                                     </div>
@@ -77,7 +77,7 @@ export default class BlogSectionTwo extends React.Component {
                                                 <p> <span className="icon-calendar-1"></span> Nov 09 2022</p>
                                             </div>
                                         </div>
-                                        <h3 className="blog-one__title"><Link to={process.env.PUBLIC_URL + `/blog-details`}>Bring to the table win-win survival</Link></h3>
+                                        <h3 className="blog-one__title"><Link to={`/blog-details`}>Bring to the table win-win survival</Link></h3>
                                         <p className="blog-one__text">Lorem ipsum dolor sit amet,elit, sed do eiusmod tempor incididunt ut labore et dolore aliqu</p>
                                     </div>
                                 </div>
